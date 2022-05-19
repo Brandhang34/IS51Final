@@ -14,3 +14,33 @@ average calculated before. Divide the length of the grades above average list by
 multiply that value by 100 to get the percentage.
 """
 
+"""
+PSEUDO CODE
+
+Create a main function
+    open Final.txt file in read mode and set it to a variable called "file"
+    create a list named "grades"
+    loop through the file
+        append the values into the grades list as an integer
+    close the Final.txt file
+     
+    create a variable called avg, which will calculate the average based on the values in the grades list
+    
+    print the number of grades by obtaining the length of the list
+    print the average grade by obtaining avg
+
+    call the calculate_percent_above_average() function, passing the grades list, the average, and the length
+
+Create a Calculate_percent_above_average function
+    Create a "grades_abv_avg" list
+
+    loop through the original list
+        if the value in the list is above the average
+            append the value into the "grades_abv_avg" list
+    
+    create a variable called "percent_abv_avg" and set it to ((grades_abv_avg length / original list length) * 100)
+    
+    print "the percentage of grades above average: "  round(((grades_abv_avg length / original list length) * 100), 2), "%"
+
+Call the main function
+"""
